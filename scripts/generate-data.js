@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const TOTAL_ROWS = 1_000_000;
+const TOTAL_ROWS = 100_000;
 const OUTPUT_PATH = resolve(__dirname, '../public/transactions.json');
 
 const merchants = [
