@@ -7,7 +7,6 @@ node_modules/
 dist/
 dist-ssr/
 
-# Generated data (too large for git - ~500MB)
 public/transactions.json
 
 # Environment files
