@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
   "dev": "vite",
-  "build": "npm run generate-data && npm run dev",
+  "build": "npm run generate-data && vite build",
   "preview": "vite preview",
   "generate-data": "node ./scripts/generate-data.js",
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
